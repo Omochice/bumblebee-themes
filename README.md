@@ -1,4 +1,4 @@
-# bumblebee-thems 
+# bumblebee-themes 
 
 ## installation
 
