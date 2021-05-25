@@ -2,61 +2,82 @@
   "icons": [
     "awesome-fonts"
   ],
+  "colors": [
+    {
+      "bg1": "#011627",
+      "bg2": "#01111d",
+      "bg3": "#1d3b53",
+      "bg4": "#637777",
+      "bg5": "#4b6479",
+      "fg1": "#d6deeb",
+      "fg2": "#ffffff",
+      "red": "#ef5350",
+      "orange": "#f78c6c",
+      "blue": "#82aaff",
+      "cyan": "#21c7a8",
+      "green": "#22da6e",
+      "yellow": "#addb67",
+      "magenta": "#c792ea",
+      "gray": "#575656"
+    }
+  ],
   "defaults": {
     "separator-block-width": 0,
+    "fg": "bg1",
+    "bg": "blue",
     "warning": {
-      "fg": "#011627",
-      "bg": "#f78c6c"
+      "fg": "bg1",
+      "bg": "orange"
     },
     "critical": {
-      "fg": "#011627",
-      "bg": "#ef5350"
+      "fg": "bg1",
+      "bg": "red"
     }
   },
   "cycle": [
     {
-      "fg": "#d6deeb",
-      "bg": "#4b6479"
+      "fg": "fg1",
+      "bg": "bg3"
     },
     {
-      "fg": "#d6deeb",
-      "bg": "#011627"
+      "fg": "bg1",
+      "bg": "blue"
     }
   ],
   "dnf": {
     "good": {
-      "fg": "#011627",
-      "bg": "#22da6e"
+      "fg": "bg1",
+      "bg": "fg2"
     }
   },
   "pacman": {
     "good": {
-      "fg": "#011627",
-      "bg": "#22da6e"
+      "fg": "fg2",
+      "bg": "fg2"
     }
   },
   "battery": {
     "charged": {
-      "fg": "#011627",
-      "bg": "#22da6e"
+      "fg": "fg2",
+      "bg": "fg2"
     },
     "AC": {
-      "fg": "#011627",
-      "bg": "#22da6e"
+      "fg": "fg2",
+      "bg": "fg2"
     }
   },
   "pomodoro": {
     "paused": {
-      "fg": "#011627",
-      "bg": "#addb67"
+      "fg": "fg1",
+      "bg": "bg1"
     },
     "work": {
-      "fg": "#22da6e",
-      "bg": "#011627"
+      "fg": "bg1",
+      "bg": "fg1"
     },
     "break": {
-      "fg": "#011627",
-      "bg": "#22da6e"
+      "fg": "bg1",
+      "bg": "magenta"
     }
   }
 }
