@@ -69,15 +69,15 @@
   "pomodoro": {
     "paused": {
       "fg": "fg1",
-      "bg": "bg1"
+      "bg": "orange"
     },
     "work": {
       "fg": "bg1",
-      "bg": "fg1"
+      "bg": "orange"
     },
     "break": {
       "fg": "bg1",
-      "bg": "magenta"
+      "bg": "orange"
     }
   }
 }
